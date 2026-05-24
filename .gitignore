@@ -1,0 +1,27 @@
+# --- ENTORNOS VIRTUALES ---
+# Ignora la carpeta donde se instalan las librerías localmente
+venv/
+.venv/
+env/
+
+# --- ARCHIVOS DE PYTHON ---
+# Ignora archivos temporales que Python crea al ejecutar código
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- CONFIGURACIONES DE EDITORES ---
+# Ignora configuraciones tuyas o de tu compañero (como el tamaño de letra o temas)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# --- ARCHIVOS DEL SISTEMA ---
+# Archivos basura que crean Windows y Mac automáticamente
+Thumbs.db
+.DS_Store
