@@ -1,8 +1,8 @@
 from sqlalchemy import create_engine
-from sqlalchemy.orm import declarative_base, sessionmaker
+from sqlalchemy.orm import sessionmaker
+from sqlalchemy.ext.declarative import declarative_base
 
-# esto es por la base de datos local con la contraseña para poder ingresar por el momento 
-DATABASE_URL = "mysql+pymysql://root:1234@localhost:3306/api_tienda" 
+DATABASE_URL = "mysql+pymysql://root:1234@localhost/api_tienda"
 
 engine = create_engine(DATABASE_URL)
 
